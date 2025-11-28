@@ -4,7 +4,7 @@
 Dieses Projekt ist ursprünglich während meiner Klausurvorbereitung für **Finanz- und Versicherungsökonomik** entstanden.  
   
 Die Idee: Mit **FastAPI** lassen sich nicht nur Daten, sondern auch Modelle für Prognosen und Simulationen bereitstellen.  
-So können Kunden direkt selbst Modelle nutzen, ohne viel Rücksprache, und bekommen die gleichen Ergebnisse wie ich.  
+
 
 ---
 
