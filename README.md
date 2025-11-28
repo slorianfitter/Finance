@@ -2,18 +2,13 @@
 
 ## Über das Projekt
 Dieses Projekt ist ursprünglich während meiner Klausurvorbereitung für **Finanz- und Versicherungsökonomik** entstanden.  
-Da an der HHU hauptsächlich mit *R* im Studiengang VWL gearbeitet wird, habe ich mich entschieden, ein eigenes Projekt in **Python** umzusetzen.  
-
+  
 Die Idee: Mit **FastAPI** lassen sich nicht nur Daten, sondern auch Modelle für Prognosen und Simulationen bereitstellen.  
 So können Kunden direkt selbst Modelle nutzen, ohne viel Rücksprache, und bekommen die gleichen Ergebnisse wie ich.  
 
 ---
 
 ## Implementierte Modelle
-
-> ⚠️ Hinweis:  
-> Die folgenden Modelle sind didaktisch gedacht und spiegeln die Realität nur sehr vereinfacht wider.  
-> In der Praxis werden sie in dieser Form von professionellen Anlegern nicht mehr verwendet.
 
 1. **Portfolioselektion nach Markowitz**  
    - Endpoint: `POST /prediction/portfolioselection`  
@@ -77,21 +72,8 @@ So können Kunden direkt selbst Modelle nutzen, ohne viel Rücksprache, und beko
 
 ---
 
-## Fazit & Ausblick
-- Gelungenes Projekt zur Verbindung von **Finanzmathematik** und **APIs**.  
-- Erstes Gefühl für eine richtige **Pipeline**.  
-- Frontend ist noch sehr rudimentär – mögliche Erweiterungen:  
-  - Visualisierungen der Ergebnisse direkt über die API zurückgeben  
-  - Erweiterung um Fama-French 3- oder 5-Faktorenmodell  
+## Update 28.11.2025
 
----
+Damals habe ich das Projekt nur als Klausurvorbereitung gestartet und möchte nun aber an dem Projekt weiterarbeiten für ein schönes Forecasting. Erstmal möchte ich allerdings noch ein **Faktorenmodell** implementieren.  
 
-## Technologien
-- **Python 3.12**  
-- **FastAPI**  
-- **Pydantic** 
-- **Uvicorn** 
-- **Pandas / NumPy**  
-- **Statsmodels**  
-- **Math**
-- **Qpsolvers**
+Dann muss ich noch einige Paper lesen, um meinen Wissensstand zu aktualisieren und raus aus den Vorlesungen und rein in die Praxis gelangen, um ein möglichst effizientes Modell zu schreiben, welches im Optimalfall die Zukunft vorhersagen kann und dann passend mit täglichem Input ein Portfolio anpassen kann.
